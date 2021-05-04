@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.upperMenu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profilePic {
+    height: 32px;
+    width: 32;
+    border-radius: 50%;
+}
+
+.googleLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.searchInput {
+    display: flex;
+    justify-content: center;
+}
+
+.searchButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.languageSwitch {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.lowerNavbar {
+    display: flex;
+    justify-content: space-between;
+}
