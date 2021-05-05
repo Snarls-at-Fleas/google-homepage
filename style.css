@@ -15,11 +15,7 @@ body {
     padding-right: 15px;
 }
 
-.upperMenuGmail {
-    padding: 0px 15px 0px 0px;
-}
-
-.upperMenuImages {
+.upperMenuItem {
     padding: 0px 15px 0px 0px;
 }
 
@@ -33,14 +29,36 @@ body {
     border-radius: 50%;
 }
 
-.googleLogo {
+.mainContent {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    height: 600px;
+}
+
+.googleLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .searchInput {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 500px;
+    padding: 10px 40px 10px 40px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 25px;
+    background-image: url(/Pics/outline_search_black_24dp.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+.searchInput:focus {
+    outline: none;
 }
 
 .searchButtons {
@@ -48,9 +66,29 @@ body {
     justify-content: center;
 }
 
+.searchButton {
+    margin-right: 5px;
+    margin-left: 5px;
+    border: none;
+    padding: 7px 20px 7px 20px;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    box-shadow: 1px 1px 2px #dfdede;
+}
+
 .languageSwitch {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    margin: 25px;
+    
+}
+
+.languageSwitchLink {
+    text-decoration: none;
 }
 
 .footer {
@@ -77,7 +115,18 @@ body {
     font-size: 14px;
 }
 
-.mainContent {
+.leftFooter {
     display: flex;
-    flex-direction: column;
+}
+
+.leftFooterItem {
+    padding: 0px 15px 0px 15px;
+}
+
+.rightFooter {
+    display: flex;
+}
+
+.rightFooterItem {
+    padding: 0px 15px 0px 15px;
 }
