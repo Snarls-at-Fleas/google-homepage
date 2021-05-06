@@ -7,6 +7,11 @@ body {
     padding: 0;
 }
 
+a:visited {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
+}
+
 .upperMenu {
     display: flex;
     justify-content: flex-end;
@@ -17,6 +22,11 @@ body {
 
 .upperMenuItem {
     padding: 0px 15px 0px 0px;
+    text-decoration: none;
+}
+
+.upperMenuItem:hover {
+    text-decoration: underline;
 }
 
 .material-icons {
@@ -33,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 600px;
+    height: 80vh;
 }
 
 .googleLogo {
@@ -52,7 +62,7 @@ body {
     padding: 10px 40px 10px 40px;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 25px;
-    background-image: url(/Pics/outline_search_black_24dp.png);
+    background-image: url(./Pics/outline_search_black_24dp.png);
     background-repeat: no-repeat;
     background-position: 10px 10px;
 }
@@ -119,14 +129,15 @@ body {
     display: flex;
 }
 
-.leftFooterItem {
+.footerLink {
     padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+.footerLink:hover {
+    text-decoration: underline;
 }
 
 .rightFooter {
     display: flex;
-}
-
-.rightFooterItem {
-    padding: 0px 15px 0px 15px;
 }
